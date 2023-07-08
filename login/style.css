@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+form {
+  width: 20%;
+}
+form input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  font-size: 20px;
+}
+button {
+  width: 30%;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  background-color: #fff;
+  color: black;
+}
+p {
+  font-size: 20px;
+  &a {
+    color: lightblue;
+  }
+}
